@@ -1,0 +1,33 @@
+public class Main {
+  public static void main(String[] args) {
+
+    String result = helloName("X");
+
+    System.out.println(result);
+  }
+
+  public static String helloName(String name) {
+    name = "Hello " + name + "!";
+    return name;
+  }
+}
+
+
+
+
+
+
+/*
+Exercise 34: helloName 
+Create a string method called helloName that takes in a string “name”.
+Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
+helloName("Bob") → "Hello Bob!"
+helloName("Alice") → "Hello Alice!"
+helloName("X") → "Hello X!"
+
+*/
+
+//public static <type> <name>(<arguments or paramters>) {}
+//  <code>
+//}
+
